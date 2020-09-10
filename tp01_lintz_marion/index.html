@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mon TP1</title>
+
+    <!-- STYLE SHEETS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- MATERIALIZE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="title-container">
+        <h1>Mon TP1</h1>
+    </div>
+    <div class="row form-container">
+        <form class="col s12" id="myForm">
+
+
+            <div class="row">
+                <div class="input-field col s2">
+                    <i class="medium material-icons gray-color prefix">person</i>
+                    <input id="civilite" type="text" class="validate">
+                    <label for="civilite">Civilité</label>
+                </div>
+                <div class="input-field col s5">
+                    <input id="nom" type="text" class="validate">
+                    <label for="nom">Nom</label>
+                </div>
+                <div class="input-field col s4">
+                    <input id="prenom" type="text" class="validate">
+                    <label for="prenom">Prénom</label>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="input-field col s1">
+                    <i class="medium material-icons gray-color prefix">home</i>
+
+                    <input id="adresse_num" type="number" class="validate">
+                    <label for="adresse_num">Numéro</label>
+                </div>
+                <div class="input-field col s10">
+                    <input id="adresse_rue" type="text" class="validate">
+                    <label for="adresse_rue">Rue</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s3 ">
+                    <i class="medium material-icons gray-color prefix"></i>
+
+                    <input id="adresse_cp" type="number" class="validate">
+                    <label for="adresse_cp">Code postal</label>
+                </div>
+                <div class="input-field col s8">
+                    <input id="adresse_ville" type="text" class="validate">
+                    <label for="adresse_ville">Ville</label>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="input-field col s11">
+                    <i class="medium material-icons gray-color prefix">email</i>
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s11">
+                    <i class="medium material-icons gray-color prefix">contacts</i>
+                    <input id="login" type="text" class="validate">
+                    <label for="login">Login</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s6">
+                    <i class="medium material-icons gray-color prefix"></i>
+
+                    <input id="mdp" type="password" class="validate">
+                    <label for="mdp">Mot de passe</label>
+                </div>
+                <div class="input-field col s5">
+                    <input id="mdp_conf" type="password" class="validate">
+                    <label for="mdp_conf">Confirmation</label>
+
+                    <span class="helper-text" id="helperConf"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12">
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Envoyer
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+<!-- JQUERY -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="script.js"></script>
+
+<!-- MATERIALIZE SCRIPT  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</html>

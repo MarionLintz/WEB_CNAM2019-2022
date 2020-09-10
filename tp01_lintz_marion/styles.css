@@ -1,0 +1,15 @@
+.title-container{
+    text-align: center;
+}
+
+.gray-color{
+    color: #444;
+}
+
+.form-container{
+    margin: 20px;
+}
+
+.helper-text{
+    color: red !important;
+}
